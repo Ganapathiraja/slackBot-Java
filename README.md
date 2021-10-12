@@ -20,5 +20,5 @@ specific project , this will resolve the need for storing the url's or forgettin
 Slack integration has been made to the cts workspace and the bot name is `ServiceUrl-Bot` , to 
 interact with this bot do the following 
 
->Note: Create your own channel in slack and then just call `@ServiceUrl-Bot` into your slack channel
+>Note: Create your own channel in slack and then just call `@yourBotName` into your slack channel
 
