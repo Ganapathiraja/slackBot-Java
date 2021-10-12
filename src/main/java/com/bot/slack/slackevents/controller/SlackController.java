@@ -29,7 +29,7 @@ public class SlackController {
         MethodsClient methods = slack.methods(token);
         // Build a request object
         ChatPostMessageRequest request = ChatPostMessageRequest.builder()
-                .channel("#serviceurl-bot")
+                .channel("#yourBotName")
                 .text(":wave: Hi from a bot written in Java!")
                 .build();
         ChatPostMessageResponse response = methods.chatPostMessage(request);
